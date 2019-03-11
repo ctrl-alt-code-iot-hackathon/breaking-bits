@@ -10,7 +10,7 @@ Diagnosis of malaria involves identification of malaria parasite or its antigens
 
 The diagnosis of malaria is confirmed by blood tests and can be divided into microscopic and non-microscopic tests.
 
-## Flaws in RPDs of Malaria
+## Flaws in RDTs of Malaria
 1) Cross-reactions with autoantibodies
 2) Sensitivity
 3) False Positivity
