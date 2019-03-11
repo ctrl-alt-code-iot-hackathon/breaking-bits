@@ -1,2 +1,3 @@
-<p align="center"><img src="https://imgur.com/NXgkPSs" width="100" /></p>
+<p align="center"><img src="https://i.imgur.com/NXgkPSs.png" width="100" /></p>
 # breaking-bits
+
