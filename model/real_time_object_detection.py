@@ -2,6 +2,9 @@
 # python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 
 # import the necessary packages
+from scipy.spatial import distance as dist
+from imutils import perspective
+from imutils import contours
 from imutils.video import VideoStream
 from imutils.video import FPS
 import numpy as np
@@ -9,6 +12,31 @@ import argparse
 import imutils
 import time
 import cv2
+
+#hgjggjgkgjg
+def bb_intersection_over_union(boxA, boxB):
+	# determine the (x, y)-coordinates of the intersection rectangle
+	xA = max(boxA[0], boxB[0])
+	yA = max(boxA[1], boxB[1])
+	xB = min(boxA[2], boxB[2])
+	yB = min(boxA[3], boxB[3])
+
+	# compute the area of intersection rectangle
+	interArea = max(0, xB - xA + 1) * max(0, yB - yA + 1)
+
+	# compute the area of both the prediction and ground-truth
+	# rectangles
+	boxAArea = (boxA[2] - boxA[0] + 1) * (boxA[3] - boxA[1] + 1)
+	boxBArea = (boxB[2] - boxB[0] + 1) * (boxB[3] - boxB[1] + 1)
+
+	# compute the intersection over union by taking the intersection
+	# area and dividing it by the sum of prediction + ground-truth
+	# areas - the interesection area
+	iou = interArea / float(boxAArea + boxBArea - interArea)
+
+	# return the intersection over union value
+	return iou
+#-------------------------------------------------------------------
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -38,6 +66,10 @@ print("[INFO] starting video stream...")
 vs = VideoStream(src=0).start()
 time.sleep(2.0)
 fps = FPS().start()
+
+dic = {}
+
+start = time.time()
 
 # loop over the frames from the video stream
 while True:
@@ -72,6 +104,7 @@ while True:
 			box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
 			(startX, startY, endX, endY) = box.astype("int")
 
+
 			# draw the prediction on the frame
 			label = "{}: {:.2f}%".format(CLASSES[idx],
 				confidence * 100)
@@ -79,6 +112,17 @@ while True:
 			if lab_name == "chair" or lab_name == "cow" or lab_name == "dog" or lab_name == "cat" or lab_name == "train":
 				pass
 			else:
+
+				if lab_name == "person":
+					dic["person"] = box
+				elif lab_name == "diningtable":
+					dic["diningtable"] = box
+
+				if("person" in dic.keys() and "diningtable" in dic.keys()):
+					iou = bb_intersection_over_union(dic["person"], dic["diningtable"])
+					if(iou > 0.8):
+						print(iou)
+
 				cv2.rectangle(frame, (startX, startY), (endX, endY),
 					COLORS[idx], 2)
 				y = startY - 15 if startY - 15 > 15 else startY + 15
