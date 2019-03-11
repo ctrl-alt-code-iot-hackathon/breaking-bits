@@ -128,7 +128,9 @@ while True:
 					dic["person"] = box
 				elif lab_name == "diningtable":
 					if "diningtable" in dic.keys():
-						score(box, dic["diningtable"])
+						iou = bb_intersection_over_union(dic["diningtable"], box)
+						if(iou > 0.1 and iou < 0.6):
+							print(iou)
 					dic["diningtable"] = box
 
 				if("person" in dic.keys() and "diningtable" in dic.keys()):
