@@ -6,6 +6,7 @@
 Drishti uses automated malaria screening using DL techniques could, therefore, serve as an effective diagnostic aid
 
 ## Malaria
+<p align="center"><img src="https://travis-ci.org/dwyl/esta.svg?branch=master" width="100" /></p>
 Diagnosis of malaria involves identification of malaria parasite or its antigens/products in the blood of the patient. Although this seems simple, the efficacy of the diagnosis is subject to many factors. The different forms of the four malaria species; the different stages of erythrocytic schizogony; the endemicity of different species; the population movements.
 
 The diagnosis of malaria is confirmed by blood tests and can be divided into microscopic and non-microscopic tests.
