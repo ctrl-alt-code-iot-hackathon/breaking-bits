@@ -27,3 +27,6 @@ The diagnosis of malaria is confirmed by blood tests and can be divided into mic
  <li><p >Jupyter notebook<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
  
 </ul>
+
+## Your Model
+p align="center"><img src="https://static1.squarespace.com/static/54856bade4b0c4cdfb17e3c0/t/58278379f7e0ab81d3e68c5a/1478984571373/" width="100" /></p>
