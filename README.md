@@ -7,5 +7,5 @@ Drishti uses deep learning architectures to analyze the live feed of all the tab
 
 ## Dependencies
 <ul>
-  <li><p >Caffee<a href="#" align="right"><img src="https://camo.githubusercontent.com/6bcb2a5bacdee6fffb24776a79c21bc3eae19ecc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6170692d7265666572656e63652d626c75652e737667" width="100" /></a></p></li>
+  <li><p>Caffee<a href="#" align="right"><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" /></a></p></li>
 </ul>
