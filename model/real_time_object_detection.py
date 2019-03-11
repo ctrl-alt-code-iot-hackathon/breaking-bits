@@ -13,7 +13,7 @@ import imutils
 import time
 import cv2
 
-#hgjggjgkgjg
+# iou
 def bb_intersection_over_union(boxA, boxB):
 	# determine the (x, y)-coordinates of the intersection rectangle
 	xA = max(boxA[0], boxB[0])
@@ -36,6 +36,18 @@ def bb_intersection_over_union(boxA, boxB):
 
 	# return the intersection over union value
 	return iou
+
+# score
+def score(box, prev_box):
+	score = 0
+
+	score += abs(box[0] - prev_box[0])
+	score += abs(box[0] - prev_box[1])
+	score += abs(box[2] - prev_box[2])
+	score += abs(box[3] - prev_box[3])
+
+	return score
+
 #-------------------------------------------------------------------
 
 # construct the argument parse and parse the arguments
@@ -112,16 +124,17 @@ while True:
 			if lab_name == "chair" or lab_name == "cow" or lab_name == "dog" or lab_name == "cat" or lab_name == "train":
 				pass
 			else:
-
 				if lab_name == "person":
 					dic["person"] = box
 				elif lab_name == "diningtable":
+					if "diningtable" in dic.keys():
+						score(box, dic["diningtable"])
 					dic["diningtable"] = box
 
 				if("person" in dic.keys() and "diningtable" in dic.keys()):
 					iou = bb_intersection_over_union(dic["person"], dic["diningtable"])
 					if(iou > 0.8):
-						print(iou)
+						pass
 
 				cv2.rectangle(frame, (startX, startY), (endX, endY),
 					COLORS[idx], 2)
