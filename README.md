@@ -3,7 +3,7 @@
 
 
 <h2>Drishti</h2>
-Drishti uses deep learning architectures to analyze the live feed of all the tables and find out which table is ready to order, waiting for food, or waiting for cheque, using this analysis the waiters and manager can decide the best way to handle all the customers without disappointing them
+Drishti uses automated malaria screening using DL techniques could, therefore, serve as an effective diagnostic aid
 
 ## Dependencies
 <ul>
@@ -14,6 +14,5 @@ Drishti uses deep learning architectures to analyze the live feed of all the tab
  <li><p >Matplotlib<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
  <li><p >Protobuf<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
  <li><p >Jupyter notebook<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
-  <li><p >cocoapi<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
  
 </ul>
