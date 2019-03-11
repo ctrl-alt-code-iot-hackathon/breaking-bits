@@ -13,6 +13,7 @@ Drishti uses deep learning architectures to analyze the live feed of all the tab
  <li><p >NumPy<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
  <li><p >Matplotlib<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
  <li><p >Protobuf<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
- <li><p >Pilow<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
-
+ <li><p >Jupyter notebook<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
+  <li><p >cocoapi<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
+ 
 </ul>
