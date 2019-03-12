@@ -41,3 +41,8 @@ The diagnosis of malaria is confirmed by blood tests and can be divided into mic
 * Now, we flatten the layer that have 28800 units.
 * we apply Relu activation function on this flatten layer and make a dense layer of 128 units.
 * we apply sigmoid activation function on the dense layer to predict the presence of malaria or not.
+
+## Images dataset
+
+<h2>Infected thin blood smear images</h2>
+<a href="https://imgur.com/RQF7ncr"><img src="https://i.imgur.com/RQF7ncr.png" title="source: imgur.com" /></a>
