@@ -18,7 +18,6 @@ The diagnosis of malaria is confirmed by blood tests and can be divided into mic
 
 ## Dependencies
 <ul>
-  <li><p >Caffee<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
   <li><p >TensorFlow<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
  <li><p >OpenCV<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
  <li><p >NumPy<a href="#" ><img src="https://img.shields.io/badge/api-reference-blue.svg" width="100" align="right" /></a></p></li>
