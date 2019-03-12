@@ -46,3 +46,7 @@ The diagnosis of malaria is confirmed by blood tests and can be divided into mic
 
 <h2>Infected thin blood smear images</h2>
 <a href="https://imgur.com/RQF7ncr"><img src="https://i.imgur.com/RQF7ncr.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/ZPPcCch"><img src="https://i.imgur.com/ZPPcCch.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/CprSslG"><img src="https://i.imgur.com/CprSslG.png" title="source: imgur.com" /></a>
+
+
