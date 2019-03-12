@@ -60,5 +60,5 @@ The diagnosis of malaria is confirmed by blood tests and can be divided into mic
 
 ## Video Link
 
-Youtube Link: 
+Youtube Link: https://youtu.be/wflByqpDdA0
 
