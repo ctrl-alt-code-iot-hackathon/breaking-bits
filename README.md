@@ -54,4 +54,11 @@ The diagnosis of malaria is confirmed by blood tests and can be divided into mic
 <a href="https://imgur.com/YkDTGJz"><img src="https://i.imgur.com/YkDTGJz.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/8JYV6cG"><img src="https://i.imgur.com/8JYV6cG.png" title="source: imgur.com" /></a>
 
+## Working
+<a href="https://imgur.com/3pRpsJS"><img src="https://i.imgur.com/3pRpsJS.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/SSERQGQ"><img src="https://i.imgur.com/SSERQGQ.png" title="source: imgur.com" /></a>
+
+## Video Link
+
+Youtube Link: 
 
