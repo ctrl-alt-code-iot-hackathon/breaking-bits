@@ -3,7 +3,7 @@
 
 
 <h2>Drishti</h2>
-Drishti uses automated malaria screening using DL techniques this could serve as an effective diagnostic aid
+Drishti uses an automated malaria screening technique on the blood samples using our Deep Learning model which serves as an effective diagnostic aid for the infected people.
 
 ## Malaria
 Diagnosis of malaria involves identification of malaria parasite or its antigens/products in the blood of the patient. Although this seems simple, the efficacy of the diagnosis is subject to many factors. The different forms of the four malaria species; the different stages of erythrocytic schizogony; the endemicity of different species; the population movements.
